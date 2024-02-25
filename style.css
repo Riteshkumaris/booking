@@ -6,7 +6,8 @@ body {
     background: url("https://geon.com.my/wp-content/uploads/2023/10/ev31.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100% 100%;
+    background-size: 100% 100%; 
+    /* total 4 line changes  for background images */
    
 }
 h1{
