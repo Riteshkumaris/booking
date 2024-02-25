@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meeting Room Booking System</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function showAlert() {
+            alert("Form submitted successfully!");
+        }
+    </script>
+</head>
+<body>
+    <h1>Meeting Room Booking System</h1>
+
+    <div class="booking-form">
+        <h2>Book a Meeting Room</h2>
+        <form action="booking.html" method="POST" onsubmit="showAlert()">
+            <label for="date">Date</label>
+            <input type="date" id="date" name="date" required><br><br>
+
+            <label for="time">Time</label>
+            <input type="time" id="time" name="time" required><br><br>
+
+            <label for="purpose">Purpose</label>
+            <input type="text" id="purpose" name="purpose" required><br><br>
+
+            <label for="room">Room</label>
+            <select id="room" name="room" required>
+                <option value="auditorium">Auditorium</option>
+                <option value="meeting-room-1">Meeting Room 1</option>
+                <option value="meeting-room-2">Meeting Room 2</option>
+            </select><br><br>
+                <a href="/booking.html" class="button">Submit
+                </a>
+           
+        </form>
+    </div>
+</body>
+</html>

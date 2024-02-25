@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    /* background: linear-gradient(to right, rgb(117, 93, 33), rgb(188, 70, 70)); */
+    background: url("https://geon.com.my/wp-content/uploads/2023/10/ev31.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+   
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
+}
+
+.calendar {
+    padding: 12px;
+    margin-bottom: 50px;
+}
+
+.booking-form {
+    max-width: 400px;
+    margin-left: 600px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input[type="date"],
+input[type="time"],
+input[type="text"],
+select {
+    width: 100%;
+    padding: 12px;
+    margin: -7px;
+    margin-bottom: 15px;
+    border: 1px solid #858181;
+    border-radius: 6px;
+    font-size: 18px;
+    color: #777676;
+}
+#room{
+    width: 425px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0d539e;
+    color: #fff;
+    margin-left: 150px;
+    text-decoration: none;
+    border-radius: 5px; 
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #4384c9;
+}
